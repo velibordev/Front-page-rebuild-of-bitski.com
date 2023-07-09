@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  background-color: #dfe0e1;
+  position: relative;
+  z-index: 1;
+}
+.container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  margin: auto;
+  padding: 40px;
+}
+.container header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.container header ul li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.post_header_text h1 {
+  font-size: 6rem;
+  text-align: center;
+  line-height: 5rem;
+  margin-top: 50px;
+}
+.post_header_text p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 30px;
+}
+.post_header_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  gap: 20px;
+}
+.post_header_buttons button {
+  padding: 10px 40px 10px 40px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container_images_of_tech {
+  margin-top: 200px;
+  display: flex;
+}
+.container_images_of_tech .first_image img {
+  width: 800px;
+}
+.container_images_of_tech .second_image img {
+  width: 400px;
+}
+.container_images_of_tech .second_image {
+  margin-left: 50px;
+}
+.wrapper {
+  background-color: #000000;
+  position: relative;
+  z-index: 100;
+  color: white;
+  margin-top: -450px;
+}
+.pre_gallery_text {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.pre_gallery_text h1 {
+  font-size: 4rem;
+  line-height: 3.5rem;
+}
+.pre_gallery_text p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: gray;
+}
+.digital_goods h1 {
+  font-size: 5rem;
+  line-height: 4.5rem;
+  text-align: center;
+  margin-top: 100px;
+}
+.digital_goods p {
+  color: gray;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+}
+.digital_goods_divs {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+}
+
+.digital_goods_divs .digital_goods_divs_1 div,
+.digital_goods_divs .digital_goods_divs_2 div {
+  width: 600px;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(51, 51, 51);
+  background-color: #111111;
+  height: 480px;
+  margin-top: 50px;
+}
+.digital_goods_divs .digital_goods_divs_1 div img,
+.digital_goods_divs .digital_goods_divs_2 div img {
+  width: 60px;
+}
+.digital_goods_divs .digital_goods_divs_1 div p,
+.digital_goods_divs .digital_goods_divs_2 div p {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: gray;
+}
+.digital_goods_divs .digital_goods_divs_1 div h1,
+.digital_goods_divs .digital_goods_divs_2 div h1 {
+  margin-top: 30px;
+  font-size: 2.3rem;
+}
+
+.digital_goods_divs .digital_goods_divs_1 div button,
+.digital_goods_divs .digital_goods_divs_2 div button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 30px 10px 30px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.post_footer {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  padding: 20px 0 20px 0;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  border-top: 1px solid gray;
+}
+footer .footer_content {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+footer .footer_content .footer_2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+footer .footer_content .footer_2 ul {
+  list-style-type: none;
+}
+footer .footer_content .footer_2 ul li {
+  margin-top: 5px;
+}
+footer .footer_1 {
+  padding: 20px;
+}
+footer .footer_1 p {
+  color: gray;
+}
