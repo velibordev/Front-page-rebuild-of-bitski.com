@@ -340,9 +340,6 @@ footer .footer_1 p {
   }
 }
 @media (max-width: 1300px) {
-  * {
-    outline: 1px solid red;
-  }
   header {
     width: 1000px;
   }
@@ -385,5 +382,294 @@ footer .footer_1 p {
     margin-bottom: 50px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
+  footer {
+    width: 800px;
+  }
+  .post_footer {
+    width: 800px;
+  }
+  .sponsors {
+    width: 800px;
+  }
+  .people {
+    width: 800px;
+  }
+  .trusted {
+    width: 800px;
+  }
+  .trusted_content {
+    width: 800px;
+  }
+  .trusted .trusted_content .trusted_1 img {
+    width: 150px;
+    padding: 10px;
+  }
+
+  .trusted .trusted_content .trusted_2 img {
+    width: 150px;
+    padding: 10px;
+  }
+  .digital_goods_divs {
+    width: 800px;
+  }
+  .digital_goods {
+    width: 800px;
+  }
+  .pre_gallery_text {
+    width: 800px;
+  }
+  .container_images_of_tech {
+    width: 800px;
+    margin: auto;
+  }
+  .container_images_of_tech .first_image {
+    display: none;
+  }
+  .container_images_of_tech .second_image {
+    margin: auto;
+  }
+  header {
+    width: 800px;
+  }
+}
+@media (max-width: 850px) {
+  footer {
+    width: 600px;
+  }
+  .post_header_text {
+    width: 600px;
+    margin: auto;
+  }
+  .post_footer {
+    width: 600px;
+  }
+  .pre_gallery_text {
+    flex-direction: column;
+  }
+  .sponsors {
+    width: 600px;
+  }
+  .sponsors .sponsors_content .sponsors_1 {
+    width: 600px;
+    flex-direction: column;
+  }
+  .sponsors .sponsors_content .sponsors_1 img {
+    border: none;
+  }
+  .people {
+    width: 600px;
+    flex-direction: column;
+  }
+  .people .people_div {
+    width: 500px;
+    margin: auto;
+  }
+  .trusted {
+    width: 600px;
+    flex-direction: column;
+  }
+  .trusted_content {
+    width: 600px;
+    flex-direction: column;
+  }
+  .trusted .trusted_content .trusted_1 img {
+    border: none;
+
+    width: 150px;
+    padding: 10px;
+  }
+  .trusted .trusted_content .trusted_1 {
+    flex-wrap: wrap;
+    border: none;
+  }
+  .trusted .trusted_content .trusted_2 {
+    border-top: none !important;
+    flex-wrap: wrap;
+  }
+  .trusted .trusted_content .trusted_2 img {
+    width: 150px;
+    padding: 10px;
+    border: none;
+  }
+  .digital_goods_divs {
+    width: 600px;
+  }
+  .digital_goods {
+    width: 600px;
+  }
+  .pre_gallery_text {
+    width: 600px;
+  }
+  .container_images_of_tech {
+    width: 600px;
+    margin: auto;
+  }
+  .container_images_of_tech .first_image {
+    display: none;
+  }
+  .container_images_of_tech .second_image {
+    margin: auto;
+  }
+  header {
+    width: 600px;
+  }
+}
+@media (max-width: 650px) {
+  * {
+    outline: 1px solid red;
+  }
+  footer {
+    width: 450px;
+  }
+  .post_footer {
+    width: 450px;
+  }
+  .sponsors {
+    width: 450px;
+  }
+  .sponsors .sponsors_content .sponsors_1 {
+    width: 450px;
+  }
+  .people {
+    width: 450px;
+  }
+  .people .people_div {
+    width: 400px;
+    margin: auto;
+  }
+  .trusted {
+    width: 450px;
+  }
+  .trusted_content {
+    width: 450px;
+    flex-direction: column;
+  }
+  .trusted .trusted_content .trusted_1 img {
+    border: none;
+
+    width: 150px;
+    padding: 10px;
+  }
+  .trusted .trusted_content .trusted_1 {
+    flex-wrap: wrap;
+    border: none;
+  }
+  .trusted .trusted_content .trusted_2 {
+    border-top: none !important;
+    flex-wrap: wrap;
+  }
+  .trusted .trusted_content .trusted_2 img {
+    width: 150px;
+    padding: 10px;
+    border: none;
+  }
+  .digital_goods_divs {
+    width: 450px;
+  }
+  .digital_goods {
+    width: 450px;
+  }
+  .pre_gallery_text {
+    width: 450px;
+  }
+  .digital_goods_divs .digital_goods_divs_1 div {
+    width: 400px;
+  }
+  .digital_goods_divs .digital_goods_divs_2 div {
+    width: 400px;
+  }
+  .container_images_of_tech {
+    width: 450px;
+  }
+  .post_header_text {
+    width: 450px;
+  }
+  .post_header_text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  header {
+    width: 450px;
+  }
+  .post_header_buttons {
+    flex-direction: column;
+  }
+}
+@media (max-width: 460px) {
+  header {
+    width: 300px;
+    flex-direction: column;
+  }
+  header ul {
+    margin-top: 10px;
+  }
+  .post_header_text {
+    width: 300px;
+  }
+  .post_header_buttons {
+    flex-direction: column;
+  }
+  .container_images_of_tech .second_image img {
+    width: 300px;
+  }
+  .container_images_of_tech {
+    width: 300px;
+  }
+  .pre_gallery_text {
+    width: 300px;
+  }
+  .pre_gallery_text h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .pre_gallery_text p {
+    font-size: 1rem;
+  }
+  footer {
+    width: 300px;
+  }
+  .footer_content {
+    flex-direction: column;
+  }
+  .post_footer {
+    width: 300px;
+  }
+  .sponsors {
+    width: 300px;
+  }
+  .sponsors .sponsors_content .sponsors_1 {
+    width: 300px;
+  }
+  .people {
+    width: 300px;
+  }
+  .people .people_div {
+    width: 300px;
+    margin: auto;
+  }
+  .trusted {
+    width: 300px;
+  }
+  .trusted_content {
+    width: 300px;
+  }
+  .digital_goods {
+    width: 300px;
+  }
+  .digital_goods h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .digital_goods_divs {
+    width: 300px;
+  }
+  .digital_goods_divs .digital_goods_divs_1 div {
+    width: 300px;
+    height: 700px;
+  }
+  .digital_goods_divs .digital_goods_divs_2 div {
+    width: 300px;
+    height: 700px;
+  }
 }
