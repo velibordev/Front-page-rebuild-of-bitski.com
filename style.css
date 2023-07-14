@@ -17,7 +17,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1400px;
   margin: auto;
   padding: 40px;
 }
@@ -88,6 +87,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 50px;
 }
 .pre_gallery_text h1 {
   font-size: 4rem;
@@ -323,4 +323,67 @@ footer .footer_1 p {
   color: #1a1a1a;
   margin-top: -20px;
   padding: 20px;
+}
+@media (max-width: 1400px) {
+  header {
+    width: 1000px;
+    margin: auto;
+  }
+  footer {
+    width: 1200px;
+  }
+  .post_footer {
+    width: 1200px;
+  }
+  .sponsors {
+    width: 1200px;
+  }
+}
+@media (max-width: 1300px) {
+  * {
+    outline: 1px solid red;
+  }
+  header {
+    width: 1000px;
+  }
+  footer {
+    width: 1000px;
+  }
+  .post_footer {
+    width: 1000px;
+  }
+  .people {
+    width: 1000px;
+  }
+  .sponsors {
+    width: 1000px;
+  }
+  .digital_goods_divs {
+    width: 1000px;
+    flex-direction: column;
+  }
+  .digital_goods {
+    width: 1000px;
+    margin: auto;
+  }
+  .digital_goods_divs_2 {
+    margin-top: 0px;
+  }
+  .trusted {
+    width: 1000px;
+  }
+  .container_images_of_tech {
+    width: 1000px;
+    margin-right: auto;
+  }
+  .container_images_of_tech .first_image img {
+    width: 500px;
+  }
+  .pre_gallery_text {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1000px) {
 }
