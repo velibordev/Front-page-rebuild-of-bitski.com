@@ -516,9 +516,6 @@ footer .footer_1 p {
   }
 }
 @media (max-width: 650px) {
-  * {
-    outline: 1px solid red;
-  }
   footer {
     width: 450px;
   }
